@@ -1,0 +1,40 @@
+.Linkcard {
+  display: inline-block;
+  width: 25rem;
+  margin: 4rem 2rem;
+  position: relative;
+  transition: transform 0.2s ease;
+  border-radius: 0.5rem;
+  box-shadow: 1px 1px 10px rgba(255, 255, 255, 0.089);
+}
+.Linkcard:hover {
+  transform: translateY(-1rem);
+}
+.Linkcard:hover .Linkcard__name {
+  padding: 1rem 0;
+  height: auto;
+}
+.Linkcard__imageContainer {
+  height: 15rem;
+}
+.Linkcard__imageContainer img {
+  height: 100%;
+  width: 100%;
+}
+.Linkcard__name {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 25rem;
+  text-align: center;
+  background-color: #228be6;
+  font-size: 1.6rem;
+  height: 4px;
+  overflow: hidden;
+  transition: all 0.5s ease;
+}
+.Linkcard:visited,
+.Linkcard:not(:visited) {
+  color: white;
+  text-decoration: none;
+}

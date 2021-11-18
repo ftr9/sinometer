@@ -1,0 +1,27 @@
+.Header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.Header img {
+  height: 12rem;
+}
+
+.Header .Header__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.7rem 3.5rem;
+  background-color: #1c7ed6;
+  color: white;
+  font-size: 1.5rem;
+  border-radius: 10rem;
+}
+@media (max-width: 550px) {
+  .Header img {
+    height: 8rem;
+  }
+}
